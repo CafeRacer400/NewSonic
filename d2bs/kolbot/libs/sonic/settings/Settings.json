@@ -1,0 +1,29 @@
+[
+  {
+    "profile": "sonic",
+    "account": "YourD2AccountHere",
+    "password": "YourPasswordHere",
+    "charName": "CharNameHere",
+    "realm": "europe",
+    "ladder": true,
+    "expansion": false,
+    "hardcore": true,
+    "respecLevel": 24,
+    "beforeRespecBuild": "start",
+    "afterRespecbuild": "xblizzard"
+  },
+
+  {
+    "profile": "sonic1",
+    "account": "YourD2AccountHere",
+    "password": "YourPasswordHere",
+    "charName": "CharNameHere",
+    "realm": "europe",
+    "ladder": true,
+    "expansion": true,
+    "hardcore": true,
+    "respecLevel": 24,
+    "beforeRespecBuild": "start",
+    "afterRespecbuild": "xblizzard"
+  }
+]

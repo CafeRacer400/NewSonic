@@ -1,0 +1,39 @@
+// --small--
+[name] == smallcharm && [quality] == magic # [maxhp] >= 10 + me.diff*5 # [MaxQuantity] == 4 && [tier] == 1
+//[name] == smallcharm && [quality] == magic # [maxmana] >= 9 + me.diff*4 # [MaxQuantity] == 2 && [tier] == 1
+//[name] == smallcharm && [quality] == magic # [itemmagicbonus] >= 5 # [MaxQuantity] == 2 && [tier] == 1
+[name] == smallcharm && [quality] == magic # [fireresist]+[lightresist]+[coldresist] >= 9 + me.diff * 3 # [MaxQuantity] == 3 && [tier] == 1
+[name] == smallcharm && [quality] == magic # [fireresist] >= 5 + me.diff*3 # [MaxQuantity] == 1 && [tier] == 1
+[name] == smallcharm && [quality] == magic # [lightresist] >= 5 + me.diff*3 # [MaxQuantity] == 1 && [tier] == 1
+[name] == smallcharm && [quality] == magic # [coldresist] >= 5 + me.diff*3 # [MaxQuantity] == 2 && [tier] == 1
+[name] == smallcharm && [quality] == magic # [maxhp] == 20 && ([fireresist] > 3 && [lightresist] > 3 || [fireresist] > 5 || [lightresist] > 5 || [coldresist] > 5) # [MaxQuantity] == 4 && [tier] == 1
+[name] == smallcharm && [quality] == unique # [fireresist] > 3 # [MaxQuantity] == 1 && [tier] == 1
+
+// --grand--
+[name] == grandcharm && [quality] == magic # [coldskilltab] == 1 # [MaxQuantity] == 1 && [tier] == 1
+[name] == grandcharm && [quality] == unique # [itemmagicbonus] >= 35 || [itemgoldbonus] >= 150 # [MaxQuantity] == 1 && [tier] == 1
+
+//Hint: added
+// life sc
+[name] == smallcharm && [quality] == magic # [maxhp] == 15		//lvl 17 req
+[name] == smallcharm && [quality] == magic # [maxhp] >= 16
+[name] == smallcharm && [quality] == magic # [fhr] == 5	# [MaxQuantity] == 1	//fhr breakpoint with spirit
+[name] == smallcharm && [quality] == magic # ([coldresist] >= 8 || [fireresist] >= 8 || [lightresist] >= 8 || [poisonresist] >= 8)
+[name] == smallcharm && [quality] == magic # [coldresist]+[fireresist]+[lightresist]+[poisonresist] >= 12
+
+// stat lc
+[name] == largecharm && [quality] == magic # [strength] == 5
+[name] == largecharm && [quality] == magic # [dexterity] == 5
+
+[name] == grandcharm && [quality] == magic # [palicombatskilltab] == 1
+[name] == grandcharm && [quality] == magic # [offensiveaurasskilltab] == 1
+[name] == grandcharm && [quality] == magic # [lightningskilltab] == 1
+[name] == grandcharm && [quality] == magic # [fireskilltab] == 1
+[name] == grandcharm && [quality] == magic # [coldskilltab] == 1
+[name] == grandcharm && [quality] == magic # [elementalskilltab] == 1
+[name] == grandcharm && [quality] == magic # [trapsskilltab] == 1
+[name] == grandcharm && [quality] == magic # [necromancersummoningskilltab] ==1
+[name] == grandcharm && [quality] == magic # [javelinandspearskilltab] == 1
+[name] == grandcharm && [quality] == magic # [warcriesskilltab] == 1
+
+[name] == grandcharm && [quality] == magic # [coldresist]+[fireresist]+[lightresist]+[poisonresist] >= 40
