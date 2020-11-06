@@ -174,19 +174,19 @@
 [name] == heavybracers && [quality] == set && [flag] != ethereal # [coldresist] >= 30 # [maxquantity] == 1 && [tier] == 45
 
 // weapon
-[type] == staff && [flag] == runeword # [fireskilltab] == 3 # [maxquantity] == 1 && [tier] == 15
-[type] == orb && [quality] <= rare # # [tier] == 9
-[type] == orb && [quality] <= rare # ([fireskilltab] + [coldskilltab] + [lightningskilltab]) >= 1 # [tier] == 10
-[type] == orb && [quality] <= rare # ([fireskilltab] + [coldskilltab] + [lightningskilltab]) >= 3 # [tier] == 11
-[type] == orb && [quality] <= rare # ([fireskilltab] + [coldskilltab] + [lightningskilltab]) >= 5 # [tier] == 12
-[type] == orb && [quality] <= rare # ([fireskilltab] + [coldskilltab] + [lightningskilltab]) >= 5 && [maxmana] > 0 # [tier] == 13
-[type] == orb && [quality] <= rare # [sorceressskills] >=1 && ([fireskilltab] + [coldskilltab] + [lightningskilltab]) >= 1 # [tier] == 14
-[type] == orb && [quality] <= rare # [sorceressskills] >=1 && ([fireskilltab] + [coldskilltab] + [lightningskilltab]) >= 3 # [tier] == 15
-[type] == orb && [quality] <= rare # [sorceressskills] >=1 && ([fireskilltab] + [coldskilltab] + [lightningskilltab]) >= 5 # [tier] == 16
-[type] == orb && [quality] <= rare # [sorceressskills] >=2 && ([fireskilltab] + [coldskilltab] + [lightningskilltab]) >= 1 # [tier] == 17
-[type] == orb && [quality] <= rare # [sorceressskills] >=2 && ([fireskilltab] + [coldskilltab] + [lightningskilltab]) >= 3 # [tier] == 18
-[type] == orb && [quality] <= rare # [sorceressskills] >=2 && ([fireskilltab] + [coldskilltab] + [lightningskilltab]) >= 5 # [tier] == 19
-[name] == crystalsword && [flag] == runeword # [itemallskills] == 2 # [maxquantity] == 1 && [tier] == 16
+[type] == orb && [quality] <= rare # # [tier] == 1
+[type] == orb && [quality] <= rare # ([fireskilltab] + [coldskilltab] + [lightningskilltab]) >= 1 # [tier] == 2
+[type] == orb && [quality] <= rare # ([fireskilltab] + [coldskilltab] + [lightningskilltab]) >= 3 # [tier] == 3
+[type] == orb && [quality] <= rare # ([fireskilltab] + [coldskilltab] + [lightningskilltab]) >= 5 # [tier] == 4
+[type] == orb && [quality] <= rare # ([fireskilltab] + [coldskilltab] + [lightningskilltab]) >= 5 && [maxmana] > 0 # [tier] == 5
+([type] == wand || [type] == orb) && [quality] <= rare # [fcr] == 10 # [tier] == 6
+([type] == wand || [type] == orb) && [quality] <= rare # [fcr] == 10 && [fireresist]+[lightresist]+[coldresist] >= 10 # [tier] == 7
+([type] == wand || [type] == orb) && [quality] <= rare # [fcr] == 20 # [tier] == 8
+([type] == wand || [type] == orb) && [quality] <= rare # [fcr] == 20 && [fireresist]+[lightresist]+[coldresist] >= 20 # [tier] == 9
+[type] == orb && [quality] <= rare # [fcr] == 20 && [sorceressskills] >=1 && ([fireskilltab] + [coldskilltab] + [lightningskilltab]) >= 2 # [tier] == 20
+[type] == orb && [quality] <= rare # [fcr] == 20 && [sorceressskills] >=2 && ([fireskilltab] + [coldskilltab] + [lightningskilltab]) >= 2 # [tier] == 21
+[type] == orb && [quality] <= rare # [fcr] == 20 && [sorceressskills] >=2 && ([fireskilltab] + [coldskilltab] + [lightningskilltab]) >= 4 # [tier] == 22
+[name] == crystalsword && [flag] == runeword # [itemallskills] == 2 # [maxquantity] == 1 && [tier] == 30
 [name] == swirlingcrystal && [quality] == unique # [fcr] > 0 # [maxquantity] == 1 && [tier] == 101
 [name] == swirlingcrystal && [quality] == set # [skillfiremastery] >= 1 # [maxquantity] == 1 && [tier] == 102 
 
